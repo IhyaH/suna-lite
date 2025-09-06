@@ -28,13 +28,13 @@
 4. **可扩展性**: 基于插件化的工具系统
 5. **容错性**: 完善的错误处理和恢复机制
 
-## AI 代理核心
+## AI Agent核心
 
 ### SunaAgent 类结构
 
 ```python
 class SunaAgent:
-    """核心AI代理类，负责协调所有组件"""
+    """核心AI Agent类，负责协调所有组件"""
     
     def __init__(self, settings: Settings):
         self.settings = settings

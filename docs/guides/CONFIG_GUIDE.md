@@ -14,7 +14,7 @@ Suna-Lite 使用简化的YAML配置系统，优先级从高到低：
 这是主要的配置文件，包含所有系统配置项：
 
 ```yaml
-# AI 代理配置
+# AI Agent配置
 agent:
   model: "Qwen/Qwen3-Coder-480B-A35B-Instruct"
   base_url: "https://newapi.ihyah.top:12321/v1"

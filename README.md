@@ -2,7 +2,7 @@
 
 <div align="center">
 
-**轻量级AI代理系统 - 本地运行，功能强大**
+**轻量级AI Agent系统 - 本地运行，功能强大**
 
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
@@ -10,16 +10,16 @@
 [![Status](https://img.shields.io/badge/Status-Active-brightgreen.svg)](https://github.com/IhyaH/suna-lite)
 [![Contributors](https://img.shields.io/badge/Contributors-Welcome-orange.svg)](https://github.com/IhyaH/suna-lite/pulls)
 
-**Suna-Lite** 是一个现代化的轻量级AI代理系统，基于OpenAI API构建，集成了文件操作、命令行执行、Web搜索和浏览器自动化等核心功能。采用异步编程架构，提供安全可靠的智能助手体验。
+**Suna-Lite** 是一个现代化的轻量级AI Agent系统，基于OpenAI API构建，集成了文件操作、命令行执行、Web搜索和浏览器自动化等核心功能。采用异步编程架构，提供安全可靠的智能助手体验。
 
 </div>
 
 ## 快速导航
 
 - **[完整文档](docs/README.md)** - 详细的项目文档和使用指南
-- **[快速开始](docs/guides/INSTALLATION.md)** - 快速安装和配置指南
+- **[快速开始](docs/INSTALLATION.md)** - 快速安装和配置指南
 - **[项目结构](docs/reference/PROJECT_STRUCTURE.md)** - 完整的项目结构说明
-- **[配置指南](docs/guides/CONFIG_GUIDE.md)** - 详细的配置说明
+- **[配置指南](docs/CONFIGURATION.md)** - 详细的配置说明
 - **[开发指南](docs/reference/CLAUDE.md)** - 开发者指南和架构说明
 
 ## 快速开始

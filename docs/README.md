@@ -2,7 +2,7 @@
 
 <div align="center">
 
-**轻量级AI代理系统 - 本地运行，功能强大**
+**轻量级AI Agent系统 - 本地运行，功能强大**
 
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
@@ -10,7 +10,7 @@
 [![Status](https://img.shields.io/badge/Status-Active-brightgreen.svg)](https://github.com/IhyaH/suna-lite)
 [![Contributors](https://img.shields.io/badge/Contributors-Welcome-orange.svg)](https://github.com/IhyaH/suna-lite/pulls)
 
-**Suna-Lite** 是一个现代化的轻量级AI代理系统，基于OpenAI API构建，集成了文件操作、命令行执行、Web搜索和浏览器自动化等核心功能。采用异步编程架构，提供安全可靠的智能助手体验。
+**Suna-Lite** 是一个现代化的轻量级AI Agent系统，基于OpenAI API构建，集成了文件操作、命令行执行、Web搜索和浏览器自动化等核心功能。采用异步编程架构，提供安全可靠的智能助手体验。
 
 </div>
 
@@ -99,11 +99,11 @@ python run.py
 ```
 ╔═══════════════════════════════════════════════════════════════╗
 ║                    Suna-Lite v0.1.0                          ║
-║              简化版AI代理系统 - 本地运行                        ║
+║              简化版AI Agent系统 - 本地运行                        ║
 ║                    作者: Suna-Lite Team                      ║
 ╚═══════════════════════════════════════════════════════════════╝
 
-**AI代理**: 基于 OpenAI API 的智能对话助手
+**AI Agent**: 基于 OpenAI API 的智能对话助手
 **文件操作**: 读写文件、目录管理
 **命令执行**: 在安全环境中运行系统命令
 **Web搜索**: 使用Tavily API获取最新信息
@@ -114,7 +114,7 @@ python run.py
 
 - `/help` - 显示此帮助信息
 - `/clear` - 清空对话历史
-- `/reset` - 重置代理状态
+- `/reset` - 重置Agent状态
 - `/workspace` - 显示工作区信息
 - `/config` - 显示当前配置
 - `/exit` - 退出程序
@@ -127,8 +127,8 @@ python run.py
 ```
 suna-lite/
 ├── src/                          # 主要源代码
-│   ├── agent/                    # AI代理核心
-│   │   ├── agent.py              # 主代理类
+│   ├── agent/                    # AI Agent核心
+│   │   ├── agent.py              # 主Agent类
 │   │   ├── prompts.py            # 系统提示词
 │   │   └── tools/                # 工具模块
 │   │       ├── base_tool.py      # 工具基类
@@ -183,7 +183,7 @@ suna-lite/
 
 ## 功能模块
 
-### AI代理核心
+### AI Agent核心
 - 基于OpenAI GPT模型的智能对话
 - 工具调用和决策支持
 - 对话历史管理
@@ -227,7 +227,7 @@ suna-lite/
 
 ```yaml
 # config.yaml - 主配置文件
-# AI代理配置
+# AI Agent配置
 agent:
   model: "Qwen/Qwen3-Coder-480B-A35B-Instruct"
   base_url: "https://newapi.ihyah.top:12321/v1"

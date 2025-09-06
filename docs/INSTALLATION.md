@@ -105,7 +105,7 @@ nano config.yaml
 编辑 `config.yaml` 文件，至少配置以下必需项：
 
 ```yaml
-# AI 代理配置
+# AI Agent配置
 agent:
   model: "Qwen/Qwen3-Coder-480B-A35B-Instruct"
   base_url: "https://newapi.ihyah.top:12321/v1"
@@ -161,11 +161,11 @@ python src/main.py
 ```
 ╔═══════════════════════════════════════════════════════════════╗
 ║                    Suna-Lite v0.1.0                          ║
-║              简化版AI代理系统 - 本地运行                        ║
+║              简化版AIAgent系统 - 本地运行                        ║
 ║                    作者: Suna-Lite Team                      ║
 ╚═══════════════════════════════════════════════════════════════╝
 
-**AI代理**: 基于 OpenAI API 的智能对话助手
+**AIAgent**: 基于 OpenAI API 的智能对话助手
 **文件操作**: 读写文件、目录管理
 **命令执行**: 在安全环境中运行系统命令
 **Web搜索**: 使用Tavily API获取最新信息
@@ -176,7 +176,7 @@ python src/main.py
 
 - `/help` - 显示此帮助信息
 - `/clear` - 清空对话历史
-- `/reset` - 重置代理状态
+- `/reset` - 重置Agent状态
 - `/workspace` - 显示工作区信息
 - `/config` - 显示当前配置
 - `/exit` - 退出程序
@@ -192,7 +192,7 @@ python src/main.py
 
 ```yaml
 # config.yaml - 完整配置示例
-# AI 代理配置
+# AI Agent配置
 agent:
   model: "Qwen/Qwen3-Coder-480B-A35B-Instruct"
   base_url: "https://newapi.ihyah.top:12321/v1"
