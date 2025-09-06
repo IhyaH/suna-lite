@@ -446,6 +446,6 @@ Suna: ✓ 代理状态已重置
 - [架构文档](ARCHITECTURE.md) - 深入了解系统设计
 - [使用示例](EXAMPLES.md) - 更多实际应用案例
 - [故障排除](INSTALLATION.md#故障排除) - 常见问题解决
-- [GitHub Issues](https://github.com/suna-lite/suna-lite/issues) - 问题反馈和讨论
+- [GitHub Issues](https://github.com/IhyaH/suna-lite/issues) - 问题反馈和讨论
 
 希望这份使用说明能帮助您更好地使用 Suna-Lite！如有任何问题，请随时联系我们。

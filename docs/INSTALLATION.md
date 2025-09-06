@@ -24,7 +24,7 @@
 
 ```bash
 # 克隆项目
-git clone https://github.com/suna-lite/suna-lite.git
+git clone https://github.com/IhyaH/suna-lite.git
 
 # 进入项目目录
 cd suna-lite
@@ -32,7 +32,7 @@ cd suna-lite
 
 #### 方法 B: 下载压缩包
 
-1. 访问 [GitHub Releases](https://github.com/suna-lite/suna-lite/releases)
+1. 访问 [GitHub Releases](https://github.com/IhyaH/suna-lite/releases)
 2. 下载最新版本的源代码压缩包
 3. 解压到您选择的目录
 4. 进入解压后的目录
@@ -436,7 +436,7 @@ mypy src/
 如果安装过程中遇到问题：
 
 1. 查看 [故障排除](#故障排除) 部分
-2. 搜索 [GitHub Issues](https://github.com/suna-lite/suna-lite/issues)
+2. 搜索 [GitHub Issues](https://github.com/IhyaH/suna-lite/issues)
 3. 创建新的 Issue 描述您的问题
 4. 发送邮件至 support@suna-lite.com
 

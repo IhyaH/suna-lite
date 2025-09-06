@@ -18,7 +18,7 @@ Suna-Lite 使用简化的YAML配置系统，优先级从高到低：
 agent:
   model: "Qwen/Qwen3-Coder-480B-A35B-Instruct"
   base_url: "https://newapi.ihyah.top:12321/v1"
-  api_key: "sk-qILg6XB2VYNFpT6FLZxE7luySDqiCmQAFtYhUU6HmLTZ6sSy"
+  api_key: "your_api_key_here"
   max_tokens: 4000
   temperature: 0.7
   max_conversation_history: 10

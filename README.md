@@ -6,9 +6,9 @@
 
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/Version-0.1.0-orange.svg)](https://github.com/suna-lite/suna-lite)
-[![Status](https://img.shields.io/badge/Status-Active-brightgreen.svg)](https://github.com/suna-lite/suna-lite)
-[![Contributors](https://img.shields.io/badge/Contributors-Welcome-orange.svg)](https://github.com/suna-lite/suna-lite/pulls)
+[![Version](https://img.shields.io/badge/Version-0.1.0-orange.svg)](https://github.com/IhyaH/suna-lite)
+[![Status](https://img.shields.io/badge/Status-Active-brightgreen.svg)](https://github.com/IhyaH/suna-lite)
+[![Contributors](https://img.shields.io/badge/Contributors-Welcome-orange.svg)](https://github.com/IhyaH/suna-lite/pulls)
 
 **Suna-Lite** 是一个现代化的轻量级AI代理系统，基于OpenAI API构建，集成了文件操作、命令行执行、Web搜索和浏览器自动化等核心功能。采用异步编程架构，提供安全可靠的智能助手体验。
 
@@ -35,7 +35,7 @@
 
 ```bash
 # 1. 克隆项目
-git clone https://github.com/suna-lite/suna-lite.git
+git clone https://github.com/IhyaH/suna-lite.git
 cd suna-lite
 
 # 2. 创建Conda环境
@@ -91,8 +91,8 @@ suna-lite/
 
 ## 联系我们
 
-- 项目主页: [https://github.com/suna-lite/suna-lite](https://github.com/suna-lite/suna-lite)
-- 问题反馈: [GitHub Issues](https://github.com/suna-lite/suna-lite/issues)
+- 项目主页: [https://github.com/IhyaH/suna-lite](https://github.com/IhyaH/suna-lite)
+- 问题反馈: [GitHub Issues](https://github.com/IhyaH/suna-lite/issues)
 - 邮箱: contact@suna-lite.com
 
 ---

@@ -29,7 +29,7 @@ setup(
     description="简化版AI代理系统",
     long_description=read_readme(),
     long_description_content_type="text/markdown",
-    url="https://github.com/suna-lite/suna-lite",
+    url="https://github.com/IhyaH/suna-lite",
     packages=find_packages(),
     classifiers=[
         "Development Status :: 3 - Alpha",

@@ -327,7 +327,7 @@ search:
   engine: "tavily"
   max_results: 10
   timeout_seconds: 15
-  api_key: "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"
+  api_key: "your_tavily_api_key_here"
   
 workspace:
   path: "./workspace"
