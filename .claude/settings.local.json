@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dir srcagent)",
+      "Bash(dir:*)",
+      "Bash(conda info:*)",
+      "Bash(python:*)",
+      "Bash(timeout:*)",
+      "Bash(echo:*)",
+      "mcp__context7__resolve-library-id",
+      "mcp__context7__get-library-docs"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
