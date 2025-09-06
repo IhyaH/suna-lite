@@ -89,6 +89,17 @@ suna-lite/
 
 本项目采用 MIT 许可证 - 查看 [LICENSE](LICENSE) 文件了解详情。
 
+## 致谢
+
+### 原创项目
+- [Suna](https://github.com/kortix-ai/suna) by [kortix-ai](https://github.com/kortix-ai) - 本项目起源于Suna，感谢其优秀的架构设计和实现
+
+### 核心技术
+- [OpenAI](https://openai.com/) - 提供强大的AI模型
+- [Rich](https://github.com/Textualize/rich) - 美观的终端界面库
+- [Click](https://click.palletsprojects.com/) - 优雅的命令行界面框架
+- [Selenium](https://www.selenium.dev/) - 浏览器自动化工具
+
 ## 联系我们
 
 - 项目主页: [https://github.com/IhyaH/suna-lite](https://github.com/IhyaH/suna-lite)

@@ -16,8 +16,8 @@ Suna-Lite 使用简化的YAML配置系统，优先级从高到低：
 ```yaml
 # AI Agent配置
 agent:
-  model: "Qwen/Qwen3-Coder-480B-A35B-Instruct"
-  base_url: "https://newapi.ihyah.top:12321/v1"
+  model: "your_model_here"
+  base_url: "your_api_base_url_here"
   api_key: "your_api_key_here"
   max_tokens: 4000
   temperature: 0.7

@@ -229,8 +229,8 @@ suna-lite/
 # config.yaml - 主配置文件
 # AI Agent配置
 agent:
-  model: "Qwen/Qwen3-Coder-480B-A35B-Instruct"
-  base_url: "https://newapi.ihyah.top:12321/v1"
+  model: "your_model_here"
+  base_url: "your_api_base_url_here"
   api_key: "your_api_key_here"
   max_tokens: 4000
   temperature: 0.7
@@ -337,6 +337,10 @@ Suna: [访问指定网页，提取数据并保存]
 
 ## 致谢
 
+### 原创项目
+- [Suna](https://github.com/kortix-ai/suna) by [kortix-ai](https://github.com/kortix-ai) - 本项目起源于Suna，感谢其优秀的架构设计和实现
+
+### 核心技术
 - [OpenAI](https://openai.com/) - 提供强大的AI模型
 - [Rich](https://github.com/Textualize/rich) - 美观的终端界面库
 - [Click](https://click.palletsprojects.com/) - 优雅的命令行界面框架

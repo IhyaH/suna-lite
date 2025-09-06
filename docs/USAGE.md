@@ -323,7 +323,7 @@ Suna:
 你: /config
 Suna: 
     **AI配置**
-    - 模型: Qwen/Qwen3-Coder-480B-A35B-Instruct
+    - 模型: your_model_here
     - 最大令牌: 4000
     - 温度: 0.7
     

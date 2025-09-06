@@ -18,8 +18,8 @@ Suna-Lite 使用简化的 YAML 配置系统，配置文件按以下优先级加�
 ```yaml
 # AI Agent配置
 agent:
-  model: "Qwen/Qwen3-Coder-480B-A35B-Instruct"
-  base_url: "https://newapi.ihyah.top:12321/v1"
+  model: "your_model_here"
+  base_url: "your_api_base_url_here"
   api_key: "your_api_key_here"
   max_tokens: 4000
   temperature: 0.7
@@ -91,8 +91,8 @@ YAML配置文件会覆盖默认配置。系统会自动合并配置，缺失的�
 ```yaml
 # AI Agent配置
 agent:
-  model: "Qwen/Qwen3-Coder-480B-A35B-Instruct"  # 模型名称
-  base_url: "https://newapi.ihyah.top:12321/v1"   # API基础URL
+  model: "your_model_here"  # 模型名称
+  base_url: "your_api_base_url_here"   # API基础URL
   api_key: "your_api_key_here"                   # API密钥
   max_tokens: 4000                               # 最大令牌数
   temperature: 0.7                               # 温度参数
@@ -125,8 +125,8 @@ search:
 ```yaml
 # 基础AI Agent配置
 agent:
-  model: "Qwen/Qwen3-Coder-480B-A35B-Instruct"
-  base_url: "https://newapi.ihyah.top:12321/v1"
+  model: "your_model_here"
+  base_url: "your_api_base_url_here"
   api_key: "your_api_key_here"
   max_tokens: 4000
   temperature: 0.7
@@ -154,8 +154,8 @@ logging:
 ```yaml
 # 高级AI Agent配置
 agent:
-  model: "Qwen/Qwen3-Coder-480B-A35B-Instruct"
-  base_url: "https://newapi.ihyah.top:12321/v1"
+  model: "your_model_here"
+  base_url: "your_api_base_url_here"
   api_key: "your_api_key_here"
   max_tokens: 8000
   temperature: 0.3
@@ -294,8 +294,8 @@ python src/main.py --debug
 ```yaml
 # 开发环境配置
 agent:
-  model: "Qwen/Qwen3-Coder-480B-A35B-Instruct"
-  base_url: "https://newapi.ihyah.top:12321/v1"
+  model: "your_model_here"
+  base_url: "your_api_base_url_here"
   api_key: "dev_api_key_here"
   max_tokens: 4000
   temperature: 0.7
@@ -320,8 +320,8 @@ logging:
 ```yaml
 # 生产环境配置
 agent:
-  model: "Qwen/Qwen3-Coder-480B-A35B-Instruct"
-  base_url: "https://newapi.ihyah.top:12321/v1"
+  model: "your_model_here"
+  base_url: "your_api_base_url_here"
   api_key: "prod_api_key_here"
   max_tokens: 8000
   temperature: 0.3
@@ -353,8 +353,8 @@ security:
 ```yaml
 # 测试环境配置
 agent:
-  model: "Qwen/Qwen3-Coder-480B-A35B-Instruct"
-  base_url: "https://newapi.ihyah.top:12321/v1"
+  model: "your_model_here"
+  base_url: "your_api_base_url_here"
   api_key: "test_api_key_here"
   max_tokens: 1000
   temperature: 0.5
@@ -385,8 +385,8 @@ tools:
 
 # AI Agent配置
 agent:
-  model: "Qwen/Qwen3-Coder-480B-A35B-Instruct"
-  base_url: "https://newapi.ihyah.top:12321/v1"
+  model: "your_model_here"
+  base_url: "your_api_base_url_here"
   api_key: "your_api_key_here"
   max_tokens: 4000
   temperature: 0.7
