@@ -145,7 +145,11 @@ cython_debug/
 workspace/
 *.log
 config.yaml
+config.local.yaml
+config.dev.yaml
+config.prod.yaml
 .env.*
+clean-git-history.sh
 
 # Test and debug files
 test_*.py

@@ -1,0 +1,51 @@
+# Suna-Lite 配置文件
+
+# AI 代理配置
+agent:
+  model: "Qwen/Qwen3-Coder-480B-A35B-Instruct"
+  base_url: "https://newapi.ihyah.top:12321/v1"
+  api_key: "your_api_key_here"
+  max_tokens: 4000
+  temperature: 0.7
+  max_conversation_history: 10
+  
+# 工作区配置
+workspace:
+  path: "./workspace"
+  max_size_mb: 100
+  auto_cleanup: true
+  
+# 浏览器配置
+browser:
+  headless: true
+  timeout_seconds: 30
+  window_size:
+    width: 1920
+    height: 1080
+    
+# 搜索配置
+search:
+  engine: "tavily"
+  max_results: 10
+  timeout_seconds: 15
+  api_key: "your_tavily_api_key_here"
+  
+# 工具配置
+tools:
+  file_operations: true
+  shell_commands: true
+  web_search: true
+  browser_automation: true
+  
+# 日志配置
+logging:
+  level: "INFO"
+  file: "./suna-lite.log"
+  max_size_mb: 10
+  backup_count: 5
+  
+# 安全配置
+security:
+  allow_network: true
+  allowed_domains: []
+  block_shell_commands: ["rm -rf", "format", "del"]
