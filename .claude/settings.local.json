@@ -8,7 +8,8 @@
       "Bash(timeout:*)",
       "Bash(echo:*)",
       "mcp__context7__resolve-library-id",
-      "mcp__context7__get-library-docs"
+      "mcp__context7__get-library-docs",
+      "mcp__mcp-server-chart__generate_flow_diagram"
     ],
     "deny": [],
     "ask": []

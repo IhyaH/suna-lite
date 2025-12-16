@@ -174,7 +174,7 @@ class BrowserTool(BaseTool):
                         message="缺少选择器参数",
                         error="Missing selector parameter"
                     )
-                return await self._find_element(selector)
+                return await self._find_element_by_selector(selector, 10)
             
             else:
                 return ToolResponse(

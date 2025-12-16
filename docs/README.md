@@ -175,6 +175,7 @@ suna-lite/
 ### 参考资料
 - [项目结构](reference/PROJECT_STRUCTURE.md) - 完整的项目结构说明
 - [架构文档](ARCHITECTURE.md) - 系统架构设计说明
+- [工具调用流程](reference/TOOL_FLOW.md) - 完整的工具调用流程和架构图
 - [开发者指南](reference/CLAUDE.md) - 开发者指南和开发规范
 
 ### 开发文档

@@ -20,6 +20,7 @@
 - **[快速开始](docs/INSTALLATION.md)** - 快速安装和配置指南
 - **[项目结构](docs/reference/PROJECT_STRUCTURE.md)** - 完整的项目结构说明
 - **[配置指南](docs/CONFIGURATION.md)** - 详细的配置说明
+- **[工具调用流程](docs/reference/TOOL_FLOW.md)** - 完整的工具调用流程和架构图
 - **[开发指南](docs/reference/CLAUDE.md)** - 开发者指南和架构说明
 
 ## 快速开始

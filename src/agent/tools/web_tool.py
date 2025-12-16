@@ -37,6 +37,20 @@ class WebTool(BaseTool):
             except Exception as e:
                 self.logger.error(f"Tavily client initialization failed: {e}")
         
+        # 初始化 aiohttp session
+        self._session = None
+      
+    async def _get_session(self) -> aiohttp.ClientSession:
+        """获取或创建 aiohttp session"""
+        if self._session is None or self._session.closed:
+            timeout = aiohttp.ClientTimeout(total=30)
+            self._session = aiohttp.ClientSession(
+                timeout=timeout,
+                headers={
+                    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
+                }
+            )
+        return self._session
       
     def get_schema(self) -> Dict[str, Any]:
         """获取工具的JSON Schema"""
@@ -493,4 +507,10 @@ class WebTool(BaseTool):
                 continue
         
         return tables[:10]  # 限制返回数量
+    
+    async def close(self):
+        """清理资源"""
+        if self._session and not self._session.closed:
+            await self._session.close()
+            self._session = None
   

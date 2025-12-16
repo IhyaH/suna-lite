@@ -110,8 +110,29 @@ class SunaAgent:
             # 处理响应
             if response.get('tool_calls'):
                 # 执行工具调用
-                result = await self._handle_tool_calls(response['tool_calls'])
-                return result
+                tool_result = await self._handle_tool_calls(response['tool_calls'])
+                
+                # 将工具结果添加到对话历史中
+                messages.append({
+                    'role': 'assistant',
+                    'content': response['content']
+                })
+                
+                # 添加工具结果到对话上下文
+                messages.append({
+                    'role': 'user',
+                    'content': f"工具执行结果：\n{tool_result['response']}"
+                })
+                
+                # 重新调用LLM分析工具结果
+                final_response = await self._call_llm(messages, [])
+                
+                return {
+                    'success': True,
+                    'response': final_response['content'],
+                    'tool_results': tool_result['tool_results'],
+                    'timestamp': datetime.now().isoformat()
+                }
             else:
                 # 直接文本响应
                 return {
